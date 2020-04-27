@@ -72,7 +72,7 @@ int main()
             int result = 0;
             for (int i = 0; i < n; i++)
             {
-                result += buffer[i % 9];
+                result += buffer[i % 10];
             }
             buffer[10] = result;
         }
@@ -81,7 +81,7 @@ int main()
     else{
         for (int i = 0; i < n; i++)
         {
-            buffer[i % 9] = i+1;
+            buffer[i % 10] = i+1;
             
         }
         //child1
