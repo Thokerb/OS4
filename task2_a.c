@@ -85,6 +85,7 @@ int main(int argc, char const *argv[])
 
     int openConn = 0;
     char* buf = malloc(sizeof(char)*1024);
+    
 
     while (1)
     {
